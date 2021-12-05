@@ -1,0 +1,20 @@
+{
+  "triqui": {
+    "Name": "Triqui",
+    "generalDescription": "Es un juego 1v1 clasico de intentar realizar tres en raya.",
+    "videoSrc": "./videos/tic-tac-toe-2.mp4",
+    "Link": "https://github.com/juangrajalesu/TicTacToe"
+  },
+  "crud": {
+    "Name": "Creación de sitios web genéricos con servicios en la nube",
+    "generalDescription": "Aplicacion para gestionar N clientes donde cada cliente tendrá su propio sitio web donde podrá mostrar información sobre su marca (En proceso)",
+    "videoSrc": "",
+    "Link": ""
+  },
+  "questionsApp": {
+    "Name": "¿Qué prefieres?",
+    "generalDescription": "Aplicación para preguntar y responder entre dos opciones, donde se puede ver el porcentaje de votaciones entre ambas respuestas.",
+    "videoSrc": "./videos/Qué prefieres.mp4",
+    "Link": "https://github.com/juangrajalesu/Que-prefieres-y-API"
+  }
+}

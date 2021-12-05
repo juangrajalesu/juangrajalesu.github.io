@@ -1,0 +1,26 @@
+{
+  "html": {
+    "languageName": "HTML",
+    "generalDescription": "",
+    "imgSrc": "/images/html.png",
+    "imgDescription": ""
+  },
+  "css": {
+    "languageName": "CSS",
+    "generalDescription": "",
+    "imgSrc": "/images/css.png",
+    "imgDescription": ""
+  },
+  "js": {
+    "languageName": "javaScript",
+    "generalDescription": "",
+    "imgSrc": "/images/js.png",
+    "imgDescription": ""
+  },
+  "React": {
+    "languageName": "React library",
+    "generalDescription": "",
+    "imgSrc": "/images/react.png",
+    "imgDescription": ""
+  }
+}
