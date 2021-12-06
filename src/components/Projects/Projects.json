@@ -20,7 +20,7 @@
   "tienda": {
     "Name": "Tienda de ropa",
     "generalDescription": "Tienda online donde se muestran productos, sus respectivos precios, donde se pueden  crear, modificar o eliminar.",
-    "videoSrc": "./videos/Tienda de ropa.mp4",
+    "videoSrc": "./videos/tienda de ropa.mp4",
     "Link": "https://github.com/juangrajalesu/tienda_de_ropa"
   },
   "apiTienda": {
