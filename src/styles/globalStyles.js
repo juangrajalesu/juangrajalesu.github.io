@@ -18,7 +18,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     background: linear-gradient(-30deg,#BBD3E8,white);
-    background-size: 400% 400%;
+    background-size: 800% 800%;
     height: 100vh;
     margin: 0 auto;
     width: 100%;
@@ -31,8 +31,8 @@ export const Container = styled.div`
   margin: 0 auto;
   height: 100%;
   background-color: #f5f5f5;
-  border-left: 2px solid #BBD3E8;
-  border-right: 2px solid #BBD3E8;
+  border-left: 2px solid #c1c1c1;
+  border-right: 2px solid #c1c1c1;
   ${media.phone`
     max-width: 576px;
     padding:0 1px;

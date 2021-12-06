@@ -6,8 +6,8 @@
     "Link": "https://github.com/juangrajalesu/TicTacToe"
   },
   "crud": {
-    "Name": "Creación de sitios web genéricos con servicios en la nube",
-    "generalDescription": "Aplicacion para gestionar N clientes donde cada cliente tendrá su propio sitio web donde podrá mostrar información sobre su marca (En proceso)",
+    "Name": "Creación de sitios genéricos",
+    "generalDescription": "Aplicacion para gestionar N clientes donde cada cliente tendrá su propio sitio web donde podrá mostrar información sobre su marca todo esto apoyado con servicios en la nube (En proceso)",
     "videoSrc": "",
     "Link": ""
   },
@@ -16,5 +16,17 @@
     "generalDescription": "Aplicación para preguntar y responder entre dos opciones, donde se puede ver el porcentaje de votaciones entre ambas respuestas.",
     "videoSrc": "./videos/Qué prefieres.mp4",
     "Link": "https://github.com/juangrajalesu/Que-prefieres-y-API"
+  },
+  "tienda": {
+    "Name": "Tienda de ropa",
+    "generalDescription": "Tienda online donde se muestran productos, sus respectivos precios, donde se pueden  crear, modificar o eliminar.",
+    "videoSrc": "./videos/Tienda de ropa.mp4",
+    "Link": "https://github.com/juangrajalesu/tienda_de_ropa"
+  },
+  "apiTienda": {
+    "Name": "API de Tienda de ropa",
+    "generalDescription": "API rest que permite a la app de la tienda de ropa almacenar sus productos y gestionarlos.",
+    "videoSrc": "",
+    "Link": "https://github.com/juangrajalesu/api_tienda_de_ropa"
   }
 }

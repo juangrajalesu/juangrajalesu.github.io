@@ -44,5 +44,5 @@ export const lateralMoveBackAnimation = css`
 `;
 
 export const backgroundMoveAnimation = css`
-  animation: ${bakgroundMove} 40s ease infinite;
+  animation: ${bakgroundMove} 20s ease infinite;
 `;

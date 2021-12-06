@@ -27,9 +27,15 @@ export const Burguer = () => {
           isOpen={open}
           isVisible={visible}
           className={open ? " " : " back"}>
-          <SideBarItem>Sobre mi</SideBarItem>
-          <SideBarItem>Proyectos</SideBarItem>
-          <SideBarItem>Contáctame</SideBarItem>
+          <SideBarItem>
+            <a href='#AboutMe'>Sobre mi</a>
+          </SideBarItem>
+          <SideBarItem>
+            <a href='#Projects'>Proyectos</a>
+          </SideBarItem>
+          <SideBarItem>
+            <a href='#ContactMe'>Contáctame</a>
+          </SideBarItem>
         </SideBar>
       </Container>
     </>

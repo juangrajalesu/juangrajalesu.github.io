@@ -40,6 +40,13 @@ export const SideBarItem = styled.li`
   border-bottom: 2px solid #c1c1c1;
   font-weight: bold;
   cursor: pointer;
+  > a{
+    color: black;
+    text-decoration: none;
+    &:hover{
+      color: Gray;
+    }
+  }
 `;
 
 export const SideBarIcon = styled(AiOutlineMenu)`
