@@ -1,8 +1,15 @@
 import { EmailForm } from "../EmailForm";
 import { Container, Mail } from "./styles";
 import { Emoji } from "../Emoji";
+import { useState} from "react";
 
 export const ContactMe = () => {
+  const [isEmailSent, setIsEmailSent] = useState(false);
+  const handleContent = () => {
+    setIsEmailSent(!isEmailSent);
+    console.log(isEmailSent);
+  };
+  
   return (
     <Container id='ContactMe'>
       <h1>Contáctame</h1>
@@ -13,7 +20,11 @@ export const ContactMe = () => {
           mi correo <Emoji emoji='📧' />
         </Mail>
       </p>
-      <EmailForm />
+      {isEmailSent ? (
+        <p>El contacto fue enviado exitosamente </p>
+      ) : (
+        <EmailForm handleClick={handleContent}/>
+      )}
     </Container>
   );
 };
