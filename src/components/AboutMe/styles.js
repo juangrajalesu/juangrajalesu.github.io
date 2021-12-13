@@ -3,8 +3,8 @@ import media from "../../styles/media";
 
 export const Avatar = styled.div`
   > img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
   }
   ${media.phone`

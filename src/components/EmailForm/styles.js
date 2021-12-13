@@ -7,8 +7,7 @@ export const StyledForm = styled.form`
   align-items: center;
   justify-content: center;
 
-  
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -27,5 +26,30 @@ export const StyledForm = styled.form`
   > textarea {
     height: 100px;
     resize: none;
+  }
+
+  > label{
+    color: #acacac;
+  }
+
+  > input, textarea {
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+
+  > button {
+    background-color: #c1c1c1;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #b1b1b1;
+    }
   }
 `;
