@@ -7,7 +7,6 @@ export const ContactMe = () => {
   const [isEmailSent, setIsEmailSent] = useState(false);
   const handleContent = () => {
     setIsEmailSent(!isEmailSent);
-    console.log(isEmailSent);
   };
   
   return (

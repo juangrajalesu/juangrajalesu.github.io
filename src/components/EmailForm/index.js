@@ -2,8 +2,7 @@ import { StyledForm } from "./styles";
 import { useForm } from "../../Hooks/useForm";
 
 export const EmailForm = (handleClick) => {
-  const { form, handleSubmit, handleChange } = useForm(handleClick);
-  
+  const { form, handleSubmit } = useForm(handleClick);
 
   return (
     <StyledForm ref={form} onSubmit={handleSubmit}>
@@ -12,21 +11,17 @@ export const EmailForm = (handleClick) => {
         type='text'
         name='name'
         placeholder='Introduce tu nombre'
-        onChange={handleChange}
+        required
       />
       <label>Introduce tu correo *</label>
       <input
         type='email'
         name='email'
         placeholder='Introduce tu correo'
-        onChange={handleChange}
+        required
       />
       <label>Envíame un mensaje *</label>
-      <textarea
-        name='message'
-        placeholder='Introduce tu mensaje'
-        onChange={handleChange}
-      />
+      <textarea name='message' placeholder='Introduce tu mensaje' required />
       <button type='submit' value='Send'>
         Enviar
       </button>
