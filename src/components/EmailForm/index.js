@@ -5,7 +5,7 @@ export const EmailForm = (handleClick) => {
   const { form, handleSubmit } = useForm(handleClick);
 
   return (
-    <StyledForm ref={form} onSubmit={handleSubmit}>
+    <StyledForm ref={form} onSubmit={handleSubmit} method='post'>
       <label>Introduce tu nombre *</label>
       <input
         type='text'
