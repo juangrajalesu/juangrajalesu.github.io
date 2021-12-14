@@ -52,10 +52,17 @@ export const ItemContainer = styled.div`
     border-radius: 5px;
     padding: 5px;
     width: 110px;
+    
+    
+    ${media.phone`
     float: left;
-    position: absolute;
+  `}
+  ${media.desktop`
+  position: absolute;
     bottom: 10px;
     left: 10px;
+  `}
+    
 
     &:hover {
       box-shadow: 0px 0px 10px 0px #c1c1c1;
@@ -66,8 +73,14 @@ export const ItemContainer = styled.div`
 
 export const VideoContainer = styled.div`
   object-fit: contain;
-  width: 280px;
+  ${media.phone`
+    width: 100%;
+  `}
+  ${media.desktop`
+  width: 300px;
   height: 190px;
+  `}
+  
 `;
 
 export const ButtonContainer = styled.div`

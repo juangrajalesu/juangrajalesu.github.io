@@ -38,7 +38,7 @@ export const Container = styled.div`
     padding:0 1px;
   `}
   ${media.desktop`
-    max-width: 1000px;
+    max-width: 1100px;
     padding: 0 2rem;
   `}
   

@@ -2,7 +2,7 @@
   "triqui": {
     "Name": "Triqui",
     "generalDescription": "Es un juego 1v1 clasico de intentar realizar tres en raya.",
-    "videoSrc": "./videos/tic-tac-toe-2.mp4",
+    "videoSrc": "./videos/Tic Tac Toe.mp4",
     "Link": "https://github.com/juangrajalesu/TicTacToe"
   },
   "crud": {
