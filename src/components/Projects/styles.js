@@ -12,7 +12,6 @@ export const ProjectContainer = styled.div`
 `;
 
 export const Background = styled.div`
-  /* background: linear-gradient(180deg, #c1c1c1, #f5f5f5, #c1c1c1); */
   width: 100%;
   > h1 {
     text-align: center;

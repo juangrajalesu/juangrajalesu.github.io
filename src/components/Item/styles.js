@@ -9,7 +9,6 @@ export const ItemContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   ${media.phone`
     width: 100%;
     height: auto;
@@ -21,6 +20,8 @@ export const ItemContainer = styled.div`
 
   > div > video {
     width: 100%;
+    height: 100%;
+    background-color: black;
   }
 
   > div > p {
@@ -33,12 +34,14 @@ export const ItemContainer = styled.div`
     text-align: center;
     font-size: 1.3rem;
     margin-bottom: 10px;
+    padding: 10px 0;
   }
 
   > p {
     font-size: 1rem;
     text-align: justify;
-    padding: 1em;
+    padding: 0.8em;
+    padding-top: 20px;
     line-height: 1.5rem;
   }
 
@@ -50,6 +53,9 @@ export const ItemContainer = styled.div`
     padding: 5px;
     width: 110px;
     float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 
     &:hover {
       box-shadow: 0px 0px 10px 0px #c1c1c1;
@@ -60,6 +66,8 @@ export const ItemContainer = styled.div`
 
 export const VideoContainer = styled.div`
   object-fit: contain;
+  width: 280px;
+  height: 190px;
 `;
 
 export const ButtonContainer = styled.div`

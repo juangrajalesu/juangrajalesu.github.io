@@ -24,8 +24,9 @@ export const AboutMeContainer = styled.div`
   `}
   ${media.desktop`
   display:flex;
+  margin: 2rem 0;
   `}
-  margin: 4rem 0;
+  
 `;
 
 export const Description = styled.div`
@@ -55,4 +56,10 @@ export const Background = styled.div`
   width: 100%;
 `;
 
+
+export const LinksContent = styled.div`
+ align-items: center;
+  display: flex;
+  flex-direction: column;
+  `
 

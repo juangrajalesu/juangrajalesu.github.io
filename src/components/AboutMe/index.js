@@ -1,5 +1,13 @@
-import { AboutMeContainer, Avatar, Background, Description, Phrase } from "./styles";
+import {
+  AboutMeContainer,
+  Avatar,
+  Background,
+  Description,
+  Phrase,
+  LinksContent,
+} from "./styles";
 import { Emoji } from "../Emoji";
+import { ReferenceButtonList } from "../ReferenceButtonList";
 
 export const AboutMe = () => {
   return (
@@ -18,6 +26,9 @@ export const AboutMe = () => {
           </h2>
         </Description>
       </AboutMeContainer>
+      <LinksContent>
+        <ReferenceButtonList />
+      </LinksContent>
       <Phrase>Codificando tus ideas.</Phrase>
     </Background>
   );
