@@ -15,6 +15,11 @@ export const ReferenceButtonList = () =>
         title='LinkedIn'
         link='https://www.linkedin.com/in/juan-manuel-grajales-urquijo-8aa78b225'
       />
+      <ReferenceButton
+        imgSrc='./images/cv.png'
+        title='Resume'
+        link='./files/cv_JuanManuelGrajales.pdf'
+      />
     </StyledReferenceButtonList>
   );
 };
